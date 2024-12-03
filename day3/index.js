@@ -72,7 +72,7 @@ function calculate2() {
     let shouldAdd = true
     let sum = 0
 
-    let i = 4
+    let i = FUNC.length
     while (i < content.length) {
         if (content.substring(i - DO.length, i) === DO) {
             shouldAdd = true
